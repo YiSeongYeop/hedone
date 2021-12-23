@@ -13,3 +13,7 @@ var innerWidth = window.innerWidth;
 innerWidth <= "800" ? body.style.backgroundImage = "url('./img/main2.jpg')" : body.style.backgroundImage = "url('./img/main.jpg')";
 //innerWidth <= "800" ? document.getElementById("hdn-header-logo").src = "./img/logo2.jpg" : document.getElementById("hdn-header-logo").src = "./img/logo1.jpg";
 }
+
+$(".modal").draggable({
+	containment: "body", scroll: false
+});

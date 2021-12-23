@@ -1,14 +1,37 @@
+html {
+	height: 100%;
+}
 body {
   /*background: url('../img/main2.jpg');*/
   background-size: cover; /*fill image / allow repeat*/
   background-attachment: fixed; 
   background-repeat: no-repeat; /*image norepeat*/
   background-position: center center;
+
+  min-height: 95%;
+  overflow: hidden;
 }
 
+/*header logo*/
 #hdn-header-container-logo {
 	text-align: center;
 }
 #hdn-header-logo {
 	width: 60%;
+}
+
+/*modal design*/
+.modal {
+	overflow: hidden;
+	width: 30%;
+	height: 10%;
+	border: 3px solid white;
+	border-radius: 2px;
+	background-color: gray;
+
+	cursor:move;
+}
+#modal-container {
+	width: 100%;
+	height: 100%;
 }
