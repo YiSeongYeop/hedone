@@ -1,3 +1,8 @@
 body {
-  background: url('../img/tft_master_SHK.png');
+  background: url('../img/main.jpg');
+  background-size: 100%; /*fill image / allow repeat*/
+  background-attachment: fixed; 
+  background-repeat: no-repeat; /*image norepeat*/
+  background-position: center center;
 }
+
