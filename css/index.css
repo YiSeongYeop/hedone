@@ -39,8 +39,8 @@ p {
 }
 .modal {
 	overflow: hidden;
-	width: 10em;
-	height: 10em;
+	width: 15em;
+	height: 7em;
 	border: 1px solid white;
 	border-radius: 1px;
 	background-color: #E8D2E9;
@@ -51,7 +51,7 @@ p {
 	padding-left: 3%;
 
 	background-color: rgb(111,42,221);
-	height: 14%;
+	height: 1.2em;
 
 	font-size: 1em;
 	color: white;
