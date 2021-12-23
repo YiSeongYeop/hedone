@@ -1,5 +1,5 @@
 html {
-	height: 100%;
+  height: 100%;
 }
 body {
   /*background: url('../img/main2.jpg');*/
@@ -16,48 +16,48 @@ body {
   overflow: hidden;
 }
 h1 {
-	margin: 0;
+  margin: 0;
 }
 p {
-	margin: 0;
+  margin: 0;
 }
 
 /*header logo*/
 #hdn-header-container-logo {
-	text-align: center;
+  text-align: center;
 }
 #hdn-header-logo {
-	width: 60%;
+  width: 60%;
 }
 #hdn-header-logo-head{
-	padding: 21px;
+  padding: 21px;
 }
 
 /*modal design*/
 #modal-container {
-	height: 95vh;
+  height: 95vh;
 }
 .modal {
-	overflow: hidden;
-	width: 15em;
-	height: 7em;
-	border: 1px solid white;
-	border-radius: 1px;
-	background-color: #E8D2E9;
+  overflow: hidden;
+  width: 15em;
+  height: 7em;
+  border: 1px solid white;
+  border-radius: 1px;
+  background-color: #E8D2E9;
 
-	cursor:move;
+  cursor:move;
 }
 .modal-head {
-	padding-left: 3%;
+  padding-left: 3%;
 
-	background-color: rgb(111,42,221);
-	height: 1.2em;
+  background-color: rgb(111,42,221);
+  height: 1.2em;
 
-	font-size: 1em;
-	color: white;
-	font-weight: lighter;
+  font-size: 1em;
+  color: white;
+  font-weight: lighter;
 
-	display: flex;
+  display: flex;
     align-items: center;
     /*vertical-align: middle;  HOW????*/
 }
