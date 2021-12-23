@@ -8,12 +8,18 @@ body {
   background-repeat: no-repeat; /*image norepeat*/
   background-position: center center;
 
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(0px);
 
   margin: 0;
   padding: 0;
   min-height: 100%;
   overflow: hidden;
+}
+h1 {
+	margin: 0;
+}
+p {
+	margin: 0;
 }
 
 /*header logo*/
@@ -24,7 +30,6 @@ body {
 	width: 60%;
 }
 #hdn-header-logo-head{
-	margin: 0;
 	padding: 21px;
 }
 
@@ -36,9 +41,23 @@ body {
 	overflow: hidden;
 	width: 30%;
 	height: 30%;
-	border: 3px solid white;
-	border-radius: 2px;
-	background-color: gray;
+	border: 1px solid white;
+	border-radius: 1px;
+	background-color: #E8D2E9;
 
 	cursor:move;
+}
+.modal-head {
+	padding-left: 3%;
+
+	background-color: rgb(111,42,221);
+	height: 14%;
+
+	font-size: 1em;
+	color: white;
+	font-weight: lighter;
+
+	display: flex;
+    align-items: center;
+    /*vertical-align: middle;  HOW????*/
 }
