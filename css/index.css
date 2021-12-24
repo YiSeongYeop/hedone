@@ -52,6 +52,7 @@ p {
   border: 1px solid white;
   border-radius: 1px;
   background-color: #E8D2E9;
+  box-shadow: 2px 2px gray;
 
   cursor:move;
 }
@@ -59,15 +60,19 @@ p {
   padding-left: 3%;
 
   background-color: rgb(111,42,221);
-  height: 1.2em;
+  height: 1.3em;
 
   font-size: 1em;
   color: white;
   font-weight: lighter;
 
   display: flex;
-    align-items: center;
+  align-items: center;
     /*vertical-align: middle;  HOW????*/
+}
+.modal-body {
+	height: 5.7em;
+	border: 1px solid rgb(111,42,221);
 }
 .modal.animate {
 	animation: 500ms ease-out appear;
@@ -83,6 +88,20 @@ p {
 	display: none;
 }
 #modal2.animate {
+	display: block;
+	animation: 500ms ease-out appear;
+}
+#modal3 {
+	display: none;
+}
+#modal3.animate {
+	display: block;
+	animation: 500ms ease-out appear;
+}
+#modal4 {
+	display: none;
+}
+#modal4.animate {
 	display: block;
 	animation: 500ms ease-out appear;
 }

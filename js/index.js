@@ -48,5 +48,5 @@ function ElementLoop() {
   	if (j < 5) {
   		ElementLoop();
   	}
-  }, 500)
+  }, 300)
 }
