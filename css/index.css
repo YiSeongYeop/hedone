@@ -27,10 +27,12 @@ p {
   text-align: center;
 }
 #hdn-header-logo {
-  width: 60%;
+  width: 40%;
+  margin-right: 40%;
+  margin-top: 7%;
 }
 #hdn-header-logo-head{
-  padding: 21px;
+
 }
 
 /*modal design*/
@@ -43,7 +45,7 @@ p {
 	}
 }
 #modal-container {
-  height: 95vh;
+  height: 85vh;
 }
 .modal {
   overflow: hidden;
