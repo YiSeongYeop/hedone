@@ -36,10 +36,13 @@ function ElementRandomize() {
 }
 */
 var j = 1;
+var Wpos = 0;
+var Hpos = 0;
+
 function ElementLoop() {
   setTimeout(function() {
-  	var Wpos = Math.round(Math.random() * (innerWidth * 0.3));
-    var Hpos = Math.round(Math.random() * (innerHeight * 0.5));
+  	Wpos = Math.round(Math.random() * (innerWidth * 0.1));
+    Hpos = Math.round(Math.random() * (innerHeight * 0.6));
 
     $("#modal" + String(j)).toggleClass('animate');
     document.getElementById("modal" + String(j)).style.top = Wpos + 'px';
@@ -49,4 +52,9 @@ function ElementLoop() {
   		ElementLoop();
   	}
   }, 300)
+}
+
+function deleteElement() {
+	const div = document.getElementById("modal1");
+	div.remove();
 }
