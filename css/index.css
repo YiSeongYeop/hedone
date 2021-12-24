@@ -72,11 +72,17 @@ p {
 .modal.animate {
 	animation: 500ms ease-out appear;
 }
-/*
-.modal1.animate {
+#modal1 {
+	display: none;
+}
+#modal1.animate {
+	display: block;
 	animation: 500ms ease-out appear;
 }
-.modal2.animate {
+#modal2 {
+	display: none;
+}
+#modal2.animate {
+	display: block;
 	animation: 500ms ease-out appear;
 }
-*/
