@@ -34,6 +34,14 @@ p {
 }
 
 /*modal design*/
+@keyframes appear {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);	
+	}
+}
 #modal-container {
   height: 95vh;
 }
@@ -61,3 +69,14 @@ p {
     align-items: center;
     /*vertical-align: middle;  HOW????*/
 }
+.modal.animate {
+	animation: 500ms ease-out appear;
+}
+/*
+.modal1.animate {
+	animation: 500ms ease-out appear;
+}
+.modal2.animate {
+	animation: 500ms ease-out appear;
+}
+*/
