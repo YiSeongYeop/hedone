@@ -41,20 +41,20 @@ var Hpos = 0;
 
 function ElementLoop() {
   setTimeout(function() {
-  	Wpos = Math.round(Math.random() * (innerWidth * 0.1));
+    Wpos = Math.round(Math.random() * (innerWidth * 0.1));
     Hpos = Math.round(Math.random() * (innerHeight * 0.6));
 
     $("#modal" + String(j)).toggleClass('animate');
     document.getElementById("modal" + String(j)).style.top = Wpos + 'px';
     document.getElementById("modal" + String(j)).style.left = Hpos + 'px';
-  	j++;
-  	if (j < 5) {
-  		ElementLoop();
-  	}
+    j++;
+    if (j < 5) {
+      ElementLoop();
+    }
   }, 300)
 }
 
 function deleteElement() {
-	const div = document.getElementById("modal1");
-	div.remove();
+  const div = document.getElementById("modal1");
+  div.remove();
 }
